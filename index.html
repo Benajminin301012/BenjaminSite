@@ -25,5 +25,34 @@
   }
 </style>
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centered Text</title>
+    <style>
+        /* 1. Make the container fill the entire screen */
+        body {
+            margin: 0;
+            height: 100vh; /* 100% of the viewport height */
+            
+            /* 2. Turn the container into a Flexbox */
+            display: flex;
+            
+            /* 3. Center content horizontally and vertically */
+            justify-content: center; /* Horizontal alignment */
+            align-items: center;     /* Vertical alignment */
+            
+            /* Optional styling */
+            font-family: Arial, sans-serif;
+        }
+
+        h1 {
+            text-align: center; /* Keeps individual text lines centered */
+        }
+    </style>
+</head>
+<body>
+
+    <h1>This text is perfectly in the middle!</h1>
 </body>
 </html>
